@@ -5,7 +5,7 @@ resource "aws_alb" "enabled" {
 
   access_logs {
     bucket  = var.bucket_name
-    enabled = var.enable_access_logs
+    enabled = var.enable_access_logs 
   }
 }
 
